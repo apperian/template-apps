@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8A4EA7138EA1B500A483E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A4EA6138EA1B500A483E1 /* UIKit.framework */; };
+		3F8A4EA9138EA1B500A483E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A4EA8138EA1B500A483E1 /* Foundation.framework */; };
+		3F8A4EAB138EA1B500A483E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A4EAA138EA1B500A483E1 /* CoreGraphics.framework */; };
+		3F8A4EB1138EA1B500A483E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A4EAF138EA1B500A483E1 /* InfoPlist.strings */; };
+		3F8A4EB4138EA1B500A483E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A4EB3138EA1B500A483E1 /* main.m */; };
+		3F8A4EB7138EA1B500A483E1 /* DocViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A4EB6138EA1B500A483E1 /* DocViewerAppDelegate.m */; };
+		3F8A4EBA138EA1B500A483E1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A4EB8138EA1B500A483E1 /* MainWindow.xib */; };
+		3F8A4EBD138EA1B500A483E1 /* DocViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A4EBC138EA1B500A483E1 /* DocViewerViewController.m */; };
+		3F8A4EC0138EA1B500A483E1 /* DocViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A4EBE138EA1B500A483E1 /* DocViewerViewController.xib */; };
+		3F8A4EC7138EA1B500A483E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A4EA6138EA1B500A483E1 /* UIKit.framework */; };
+		3F8A4EC8138EA1B500A483E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A4EA8138EA1B500A483E1 /* Foundation.framework */; };
+		3F8A4EC9138EA1B500A483E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A4EAA138EA1B500A483E1 /* CoreGraphics.framework */; };
+		3F8A4ED1138EA1B500A483E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A4ECF138EA1B500A483E1 /* InfoPlist.strings */; };
+		3F8A4ED4138EA1B500A483E1 /* DocViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A4ED3138EA1B500A483E1 /* DocViewerTests.h */; };
+		3F8A4ED6138EA1B500A483E1 /* DocViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A4ED5138EA1B500A483E1 /* DocViewerTests.m */; };
+		3F8A4EF5138ED5A000A483E1 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A4EF3138ED5A000A483E1 /* MainWindow-iPad.xib */; };
+		3FF1C662139978D200DB4488 /* mobility_transformed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1C661139978D200DB4488 /* mobility_transformed.pdf */; };
+		3FF1C66413997A2A00DB4488 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1C66313997A2A00DB4488 /* Entitlements.plist */; };
+		3FF1C66813997A9A00DB4488 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1C66513997A9A00DB4488 /* icon.png */; };
+		3FF1C66913997A9A00DB4488 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1C66613997A9A00DB4488 /* icon@2x.png */; };
+		3FF1C66A13997A9A00DB4488 /* icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1C66713997A9A00DB4488 /* icon~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8A4ECA138EA1B500A483E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8A4E99138EA1B400A483E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8A4EA1138EA1B400A483E1;
+			remoteInfo = DocViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8A4EA2138EA1B500A483E1 /* DocViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A4EA6138EA1B500A483E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F8A4EA8138EA1B500A483E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F8A4EAA138EA1B500A483E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F8A4EAE138EA1B500A483E1 /* DocViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DocViewer-Info.plist"; sourceTree = "<group>"; };
+		3F8A4EB0138EA1B500A483E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F8A4EB2138EA1B500A483E1 /* DocViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DocViewer-Prefix.pch"; sourceTree = "<group>"; };
+		3F8A4EB3138EA1B500A483E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8A4EB5138EA1B500A483E1 /* DocViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocViewerAppDelegate.h; sourceTree = "<group>"; };
+		3F8A4EB6138EA1B500A483E1 /* DocViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocViewerAppDelegate.m; sourceTree = "<group>"; };
+		3F8A4EB9138EA1B500A483E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3F8A4EBB138EA1B500A483E1 /* DocViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocViewerViewController.h; sourceTree = "<group>"; };
+		3F8A4EBC138EA1B500A483E1 /* DocViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocViewerViewController.m; sourceTree = "<group>"; };
+		3F8A4EBF138EA1B500A483E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DocViewerViewController.xib; sourceTree = "<group>"; };
+		3F8A4EC6138EA1B500A483E1 /* DocViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A4ECE138EA1B500A483E1 /* DocViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DocViewerTests-Info.plist"; sourceTree = "<group>"; };
+		3F8A4ED0138EA1B500A483E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F8A4ED2138EA1B500A483E1 /* DocViewerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DocViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		3F8A4ED3138EA1B500A483E1 /* DocViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocViewerTests.h; sourceTree = "<group>"; };
+		3F8A4ED5138EA1B500A483E1 /* DocViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocViewerTests.m; sourceTree = "<group>"; };
+		3F8A4EF4138ED5A000A483E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		3FF1C661139978D200DB4488 /* mobility_transformed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = mobility_transformed.pdf; path = Resources/mobility_transformed.pdf; sourceTree = "<group>"; };
+		3FF1C66313997A2A00DB4488 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		3FF1C66513997A9A00DB4488 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
+		3FF1C66613997A9A00DB4488 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icon@2x.png"; sourceTree = "<group>"; };
+		3FF1C66713997A9A00DB4488 /* icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon~ipad.png"; path = "Resources/icon~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8A4E9F138EA1B400A483E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A4EA7138EA1B500A483E1 /* UIKit.framework in Frameworks */,
+				3F8A4EA9138EA1B500A483E1 /* Foundation.framework in Frameworks */,
+				3F8A4EAB138EA1B500A483E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A4EC2138EA1B500A483E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A4EC7138EA1B500A483E1 /* UIKit.framework in Frameworks */,
+				3F8A4EC8138EA1B500A483E1 /* Foundation.framework in Frameworks */,
+				3F8A4EC9138EA1B500A483E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A4E97138EA1B400A483E1 = {
+			isa = PBXGroup;
+			children = (
+				3F8A4EAC138EA1B500A483E1 /* DocViewer */,
+				3F8A4ECC138EA1B500A483E1 /* DocViewerTests */,
+				3F8A4EA5138EA1B500A483E1 /* Frameworks */,
+				3F8A4EA3138EA1B500A483E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8A4EA3138EA1B500A483E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4EA2138EA1B500A483E1 /* DocViewer.app */,
+				3F8A4EC6138EA1B500A483E1 /* DocViewerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8A4EA5138EA1B500A483E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4EA6138EA1B500A483E1 /* UIKit.framework */,
+				3F8A4EA8138EA1B500A483E1 /* Foundation.framework */,
+				3F8A4EAA138EA1B500A483E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F8A4EAC138EA1B500A483E1 /* DocViewer */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4EB5138EA1B500A483E1 /* DocViewerAppDelegate.h */,
+				3F8A4EB6138EA1B500A483E1 /* DocViewerAppDelegate.m */,
+				3F8A4EBB138EA1B500A483E1 /* DocViewerViewController.h */,
+				3F8A4EBC138EA1B500A483E1 /* DocViewerViewController.m */,
+				3F8A4EF7138ED62400A483E1 /* Resources */,
+				3F8A4EF6138ED5CE00A483E1 /* Interface */,
+				3F8A4EAD138EA1B500A483E1 /* Supporting Files */,
+			);
+			path = DocViewer;
+			sourceTree = "<group>";
+		};
+		3F8A4EAD138EA1B500A483E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4EAE138EA1B500A483E1 /* DocViewer-Info.plist */,
+				3F8A4EAF138EA1B500A483E1 /* InfoPlist.strings */,
+				3F8A4EB2138EA1B500A483E1 /* DocViewer-Prefix.pch */,
+				3F8A4EB3138EA1B500A483E1 /* main.m */,
+				3FF1C66313997A2A00DB4488 /* Entitlements.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8A4ECC138EA1B500A483E1 /* DocViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4ED3138EA1B500A483E1 /* DocViewerTests.h */,
+				3F8A4ED5138EA1B500A483E1 /* DocViewerTests.m */,
+				3F8A4ECD138EA1B500A483E1 /* Supporting Files */,
+			);
+			path = DocViewerTests;
+			sourceTree = "<group>";
+		};
+		3F8A4ECD138EA1B500A483E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4ECE138EA1B500A483E1 /* DocViewerTests-Info.plist */,
+				3F8A4ECF138EA1B500A483E1 /* InfoPlist.strings */,
+				3F8A4ED2138EA1B500A483E1 /* DocViewerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8A4EF6138ED5CE00A483E1 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A4EB8138EA1B500A483E1 /* MainWindow.xib */,
+				3F8A4EF3138ED5A000A483E1 /* MainWindow-iPad.xib */,
+				3F8A4EBE138EA1B500A483E1 /* DocViewerViewController.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		3F8A4EF7138ED62400A483E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FF1C66513997A9A00DB4488 /* icon.png */,
+				3FF1C66613997A9A00DB4488 /* icon@2x.png */,
+				3FF1C66713997A9A00DB4488 /* icon~ipad.png */,
+				3FF1C661139978D200DB4488 /* mobility_transformed.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8A4EA1138EA1B400A483E1 /* DocViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A4ED9138EA1B500A483E1 /* Build configuration list for PBXNativeTarget "DocViewer" */;
+			buildPhases = (
+				3F8A4E9E138EA1B400A483E1 /* Sources */,
+				3F8A4E9F138EA1B400A483E1 /* Frameworks */,
+				3F8A4EA0138EA1B400A483E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocViewer;
+			productName = DocViewer;
+			productReference = 3F8A4EA2138EA1B500A483E1 /* DocViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8A4EC5138EA1B500A483E1 /* DocViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A4EDC138EA1B500A483E1 /* Build configuration list for PBXNativeTarget "DocViewerTests" */;
+			buildPhases = (
+				3F8A4EC1138EA1B500A483E1 /* Sources */,
+				3F8A4EC2138EA1B500A483E1 /* Frameworks */,
+				3F8A4EC3138EA1B500A483E1 /* Resources */,
+				3F8A4EC4138EA1B500A483E1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8A4ECB138EA1B500A483E1 /* PBXTargetDependency */,
+			);
+			name = DocViewerTests;
+			productName = DocViewerTests;
+			productReference = 3F8A4EC6138EA1B500A483E1 /* DocViewerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8A4E99138EA1B400A483E1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3F8A4E9C138EA1B400A483E1 /* Build configuration list for PBXProject "DocViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F8A4E97138EA1B400A483E1;
+			productRefGroup = 3F8A4EA3138EA1B500A483E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8A4EA1138EA1B400A483E1 /* DocViewer */,
+				3F8A4EC5138EA1B500A483E1 /* DocViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8A4EA0138EA1B400A483E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A4EB1138EA1B500A483E1 /* InfoPlist.strings in Resources */,
+				3F8A4EBA138EA1B500A483E1 /* MainWindow.xib in Resources */,
+				3F8A4EC0138EA1B500A483E1 /* DocViewerViewController.xib in Resources */,
+				3F8A4EF5138ED5A000A483E1 /* MainWindow-iPad.xib in Resources */,
+				3FF1C662139978D200DB4488 /* mobility_transformed.pdf in Resources */,
+				3FF1C66413997A2A00DB4488 /* Entitlements.plist in Resources */,
+				3FF1C66813997A9A00DB4488 /* icon.png in Resources */,
+				3FF1C66913997A9A00DB4488 /* icon@2x.png in Resources */,
+				3FF1C66A13997A9A00DB4488 /* icon~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A4EC3138EA1B500A483E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A4ED1138EA1B500A483E1 /* InfoPlist.strings in Resources */,
+				3F8A4ED4138EA1B500A483E1 /* DocViewerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F8A4EC4138EA1B500A483E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8A4E9E138EA1B400A483E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A4EB4138EA1B500A483E1 /* main.m in Sources */,
+				3F8A4EB7138EA1B500A483E1 /* DocViewerAppDelegate.m in Sources */,
+				3F8A4EBD138EA1B500A483E1 /* DocViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8A4EC1138EA1B500A483E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A4ED6138EA1B500A483E1 /* DocViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8A4ECB138EA1B500A483E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8A4EA1138EA1B400A483E1 /* DocViewer */;
+			targetProxy = 3F8A4ECA138EA1B500A483E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8A4EAF138EA1B500A483E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A4EB0138EA1B500A483E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F8A4EB8138EA1B500A483E1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A4EB9138EA1B500A483E1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3F8A4EBE138EA1B500A483E1 /* DocViewerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A4EBF138EA1B500A483E1 /* en */,
+			);
+			name = DocViewerViewController.xib;
+			sourceTree = "<group>";
+		};
+		3F8A4ECF138EA1B500A483E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A4ED0138EA1B500A483E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F8A4EF3138ED5A000A483E1 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A4EF4138ED5A000A483E1 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8A4ED7138EA1B500A483E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F8A4ED8138EA1B500A483E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = DocViewer/Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Apperian";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DAA5176D-81BC-4004-9D94-20915E8CC611";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3F8A4EDA138EA1B500A483E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocViewer/DocViewer-Prefix.pch";
+				INFOPLIST_FILE = "DocViewer/DocViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F8A4EDB138EA1B500A483E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocViewer/DocViewer-Prefix.pch";
+				INFOPLIST_FILE = "DocViewer/DocViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F8A4EDD138EA1B500A483E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DocViewer.app/DocViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocViewerTests/DocViewerTests-Prefix.pch";
+				INFOPLIST_FILE = "DocViewerTests/DocViewerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F8A4EDE138EA1B500A483E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DocViewer.app/DocViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DocViewerTests/DocViewerTests-Prefix.pch";
+				INFOPLIST_FILE = "DocViewerTests/DocViewerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8A4E9C138EA1B400A483E1 /* Build configuration list for PBXProject "DocViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A4ED7138EA1B500A483E1 /* Debug */,
+				3F8A4ED8138EA1B500A483E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A4ED9138EA1B500A483E1 /* Build configuration list for PBXNativeTarget "DocViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A4EDA138EA1B500A483E1 /* Debug */,
+				3F8A4EDB138EA1B500A483E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A4EDC138EA1B500A483E1 /* Build configuration list for PBXNativeTarget "DocViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A4EDD138EA1B500A483E1 /* Debug */,
+				3F8A4EDE138EA1B500A483E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8A4E99138EA1B400A483E1 /* Project object */;
+}
